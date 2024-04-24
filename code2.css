@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f08989;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #372d2d;
+    border-radius: 5px;
+}
+
+form label, form input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+.expense-list {
+    margin-top: 20px;
+}
+
+.expense-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.expense-list li:last-child {
+    border-bottom: none;
+}
+
+.expense-list li button {
+    margin-left: 10px;
+}
+button{
+    background-color: rgb(217, 187, 241);
+    border-radius: 2px;
+    
+}

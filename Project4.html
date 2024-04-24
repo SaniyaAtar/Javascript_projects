@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style4.css" />
+    <title>Frontend Mentor | Social Media Dashboard</title>
+</head>
+<body>
+<header>
+    <h1 class="title">Social Media Dashboard</h1>
+    <h3 class="text">Total Followers: 23.004</h3>
+</header>
+<main>
+    <div class="main-title">
+        <p>Dark Mode</p>
+        <div class="toggle-container">
+            <input type="checkbox" id="switch" name="theme" />
+            <label for="switch"></label>
+        </div>
+    </div>
+    <section class="login-section">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
